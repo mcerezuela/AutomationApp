@@ -6,7 +6,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.smashtik.automationapp.ui.dataadapter.LongListActivity;
+import com.smashtik.automationapp.ui.list.dataadapter.LongListActivity;
 import com.smashtik.automationapp.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {

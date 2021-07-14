@@ -1,4 +1,4 @@
-package com.smashtik.automationapp.ui.dataadapter;
+package com.smashtik.automationapp.ui.list.dataadapter;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -22,7 +22,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.smashtik.automationapp.R;
 import com.smashtik.automationapp.databinding.ActivityLoginBinding;
-import com.smashtik.automationapp.ui.dataadapter.LongListActivity;
+import com.smashtik.automationapp.ui.list.dataadapter.LongListActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
