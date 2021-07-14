@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AutomationApp</string>
+    <!-- Strings related to main options -->
+    <string name="action_goto_list">"Go to list"</string>
+    <string name="action_goto_login">"Go to login"</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- Strings related to List -->
+    <string name="row_label">Clicked on row</string>
+</resources>
