@@ -1,7 +1,6 @@
 package com.smashtik.automationapp.ui.login;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -22,7 +21,6 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.smashtik.automationapp.R;
 import com.smashtik.automationapp.databinding.ActivityLoginBinding;
-import com.smashtik.automationapp.ui.list.dataadapter.LongListActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -122,18 +120,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        goToButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openLongListActivity();
-            }
-        });
     }
 
-    public void openLongListActivity() {
-        Intent intent = new Intent(this, LongListActivity.class);
-        startActivity(intent);
-    }
 
     private void updateUiWithUser(LoggedInUserView model) {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
